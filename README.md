@@ -4,7 +4,7 @@ Simulate mouse dragging event(mousemove while mousedown).
 
 ## Usage
 
-* as a plugin
+**as a plugin**
 
     $('#foo').mousedrag(function(ev) { // mouse being dragged });
 
@@ -17,7 +17,7 @@ Simulate mouse dragging event(mousemove while mousedown).
         }
     );
     
-* as a special event
+**as a special event**
 
     $('#foo').on('mousedrag', function(ev) { // mouse being dragged });
     
