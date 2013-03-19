@@ -53,7 +53,7 @@
             return false;
         },
         remove: function() {
-            $(this).mouseDraggable('destroy');            
+            $(this).mousedrag('destroy');            
             return false;
         }
     };
